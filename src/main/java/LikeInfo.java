@@ -1,6 +1,16 @@
 public class LikeInfo {
+    private Post post;
     private int count;
-    private String authorLike;
+    private String idAuthorLike;
+    private int userLike;
+
+    public int getUserLike() {
+        return userLike;
+    }
+
+    public void setUserLike(int userLike) {
+        this.userLike = userLike;
+    }
 
     public int getCount() {
         return count;
@@ -10,11 +20,19 @@ public class LikeInfo {
         this.count = count;
     }
 
-    public String getAuthorLike() {
-        return authorLike;
+    public Post getPost() {
+        return post;
     }
 
-    public void setAuthorLike(String authorLike) {
-        this.authorLike = authorLike;
+    public void setPost(Post post) {
+        this.post = post;
+    }
+
+    public String getIdAuthorLike() {
+        return idAuthorLike;
+    }
+
+    public void setIdAuthorLike(String idAuthorLike) {
+        this.idAuthorLike = idAuthorLike;
     }
 }
