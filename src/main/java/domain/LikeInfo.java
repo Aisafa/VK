@@ -1,3 +1,5 @@
+package domain;
+
 public class LikeInfo {
     private Post post;
     private int count;

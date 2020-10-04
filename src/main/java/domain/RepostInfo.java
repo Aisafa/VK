@@ -1,3 +1,5 @@
+package domain;
+
 public class RepostInfo {
     private Post post;
     private int count;

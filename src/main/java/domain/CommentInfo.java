@@ -1,3 +1,5 @@
+package domain;
+
 public class CommentInfo extends Post {
     private Post post;
     private int count;
