@@ -1,16 +1,9 @@
+package domain;
+
 public class RepostInfo {
-    private Post post;
     private int count;
     private boolean canRepost;
     private int userReposted;
-
-    public Post getPost() {
-        return post;
-    }
-
-    public void setPost(Post post) {
-        this.post = post;
-    }
 
     public boolean isCanRepost() {
         return canRepost;

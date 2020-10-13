@@ -1,3 +1,5 @@
+package domain;
+
 public class Post {
     private int id;
     private DateInfo dateInfo;

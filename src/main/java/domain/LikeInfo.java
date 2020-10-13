@@ -1,5 +1,6 @@
-public class LikeInfo {
-    private Post post;
+package domain;
+
+    public class LikeInfo {
     private int count;
     private String idAuthorLike;
     private int userLike;
@@ -18,14 +19,6 @@ public class LikeInfo {
 
     public void setCount(int count) {
         this.count = count;
-    }
-
-    public Post getPost() {
-        return post;
-    }
-
-    public void setPost(Post post) {
-        this.post = post;
     }
 
     public String getIdAuthorLike() {
